@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    android:clickable="false"
+    android:longClickable="false" >
+
+    <ImageButton
+        android:id="@+id/imageButtonITBusiness"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="16dp"
+        android:onClick="OnClick"
+        android:src="@drawable/itbusinessicon" />
+
+    <ImageButton
+        android:id="@+id/imageButtonInternet"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButtonITBusiness"
+        android:layout_marginRight="16dp"
+        android:onClick="OnClick"
+        android:src="@drawable/interneticon" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSecurity"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/imageButtonITBusiness"
+        android:layout_centerVertical="true"
+        android:onClick="OnClick"
+        android:src="@drawable/securityicon" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMobile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/imageButtonInternet"
+        android:layout_alignTop="@+id/imageButtonSecurity"
+        android:onClick="OnClick"
+        android:src="@drawable/mobileicon" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSoftware"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/imageButtonMobile"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:onClick="OnClick"
+        android:src="@drawable/softwareinterneticon" />
+
+    <ImageButton
+        android:id="@+id/imageButtonHardware"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/imageButtonSecurity"
+        android:layout_alignTop="@+id/imageButtonSoftware"
+        android:onClick="OnClick"
+        android:src="@drawable/hardwareicon" />
+
+</RelativeLayout>

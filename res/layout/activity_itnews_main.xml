@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:clickable="true"
+    android:onClick="OnClick"
+    tools:context="com.reader.ictnews.ITNewsMainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background4" >
+
+    </ListView>
+
+</FrameLayout>
+
